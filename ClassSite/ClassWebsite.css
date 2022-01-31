@@ -1,0 +1,29 @@
+.name {
+    font-size: larger;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 204, 138);
+}
+
+.exercises {
+    font-size: larger;
+    list-style-type: none;
+    font-family: cursive;
+    margin-left: -30pt;
+}
+
+.header {
+  margin-bottom: -10pt;
+}
+
+.header,
+.subheader {
+    color:crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
