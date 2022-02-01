@@ -9,8 +9,7 @@ body {
 }
 
 .exercises,
-.projects
-{
+.projects {
     font-size: larger;
     list-style-type: none;
     font-family: cursive;
