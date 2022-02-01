@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(100, 148, 237, .5);
+}
+
+img {
+    outline: indigo;
+        outline-style: double;
+        outline-width: 6px;
+        width: 500px;
+        height: 350px;
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.header {
+    background-image: url(puppypoo.jpg);
+    background-size: 125px;
+    color: whitesmoke;
+    text-shadow: 5px 5px black;
+ 
+}
+
+.intro {
+    font-style: italic;
+}
+
