@@ -8,7 +8,9 @@ body {
     background-color: rgb(255, 204, 138);
 }
 
-.exercises {
+.exercises,
+.projects
+{
     font-size: larger;
     list-style-type: none;
     font-family: cursive;
@@ -25,5 +27,8 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+.label {
+    margin-bottom: -15px;
+}
 
 
