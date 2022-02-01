@@ -16,6 +16,10 @@ body {
     margin-left: -30pt;
 }
 
+.header {
+  margin-bottom: -10pt;
+}
+
 .header,
 .subheader {
     color:crimson;
