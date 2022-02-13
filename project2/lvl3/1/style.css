@@ -1,0 +1,12 @@
+p {
+    color: red;
+    text-transform: lowercase;
+}
+
+hr.bottom {
+    border-top: 1px dotted red;
+}
+
+hr.top {
+    border-top: 1px dotted gray;
+}
