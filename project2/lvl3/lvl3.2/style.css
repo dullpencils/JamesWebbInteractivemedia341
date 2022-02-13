@@ -3,3 +3,7 @@ div.sticky {
     top: 25px;
     font-style: italic;
 }
+
+p {
+    text-indent: 50px;
+}
