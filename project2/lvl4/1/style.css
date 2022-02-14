@@ -12,6 +12,7 @@
     width: 100px;
     position: absolute;
     left: 200px;
+    opacity: 1;
 }
 
 .ocean {
@@ -20,6 +21,7 @@
     width: 100px;
     position: absolute;
     left: 400px;
+    opacity: .8;
 }
 
 .crew {
@@ -28,6 +30,7 @@
     width: 100px;
     position: absolute;
     left: 600px;
+    opacity: .6;
 }
 
 .lungs {
@@ -36,6 +39,7 @@
     width: 100px;
     position: absolute;
     left: 800px;
+    opacity: .4;
 }
 
 .engine {
@@ -44,6 +48,7 @@
     width: 100px;
     position: absolute;
     left: 1000px;
+    opacity: .3;
 }
 
 .boat {
@@ -52,6 +57,7 @@
     width: 100px;
     position: absolute;
     left: 1200px;
+    opacity: .2;
 }
 
 .soul {
@@ -60,10 +66,12 @@
     width: 100px;
     position: absolute;
     left: 1400px;
+    opacity: .1;
 }
 
 .fullpage {
     padding-left: 50px;
     border: black 10px;
     width: 1600px;
+    opacity: .05;
 }

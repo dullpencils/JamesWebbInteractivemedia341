@@ -1,7 +1,6 @@
 div.sticky {
     position: sticky;
     top: 25px;
-    font-style: italic;
 }
 
 p {
