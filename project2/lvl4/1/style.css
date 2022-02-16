@@ -1,77 +1,70 @@
-.ahah {
-    color: white;
-    text-align: center;
+.crow,
+.ocean,
+.crew,
+.lungs,
+.engine,
+.boat,
+.soul,
+.joy {
+    display: inline;
+    font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-    position:absolute;
+    color: whitesmoke;
+    font-kerning: auto;
 }
 
-.crow {
-    padding-left: 50px;
-    border: black 10px;
-    width: 100px;
-    position: absolute;
-    left: 200px;
-    opacity: 1;
+.crow:hover ~ .crow {
+    color: black;
 }
 
-.ocean {
-    padding-left: 50px;
-    border: black 10px;
-    width: 100px;
-    position: absolute;
-    left: 400px;
-    opacity: .8;
+.ocean:hover ~ .ocean {
+ color: blue;
 }
 
-.crew {
-    padding-left: 50px;
-    border: black 10px;
-    width: 100px;
-    position: absolute;
-    left: 600px;
-    opacity: .6;
+.crew:hover ~ .crew {
+    color: navy;
 }
 
-.lungs {
-    padding-left: 50px;
-    border: black 10px;
-    width: 100px;
-    position: absolute;
-    left: 800px;
-    opacity: .4;
+.lungs:hover ~ .lungs {
+    color: pink;
 }
 
-.engine {
-    padding-left: 50px;
-    border: black 10px;
-    width: 100px;
-    position: absolute;
-    left: 1000px;
-    opacity: .3;
+.engine:hover ~ .engine {
+    color: gray;
 }
 
-.boat {
-    padding-left: 50px;
-    border: black 10px;
-    width: 100px;
-    position: absolute;
-    left: 1200px;
-    opacity: .2;
+.boat:hover ~ .boat {
+    color: orange;
 }
 
-.soul {
-    padding-left: 50px;
-    border: black 10px;
-    width: 100px;
-    position: absolute;
-    left: 1400px;
-    opacity: .1;
+.soul:hover ~ .soul {
+    color: darkgreen;
 }
 
-.fullpage {
-    padding-left: 50px;
-    border: black 10px;
-    width: 1600px;
-    opacity: .05;
+.ahcrow {
+    color: black;
 }
+
+.ahocean {
+ color: blue;
+}
+
+.ahcrew {
+    color: navy;
+   }
+
+.ahlungs {
+    color: pink;
+   }
+
+.ahengine {
+    color: gray;
+   }
+
+.ahboat {
+    color: orange;
+   }
+
+.ahsoul {
+    color: darkgreen;
+   }

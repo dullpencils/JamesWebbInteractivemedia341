@@ -1,0 +1,22 @@
+.crow,
+.ocean,
+.crew,
+.lungs,
+.engine,
+.boat,
+.soul,
+.joy {
+    display: inline;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-kerning: auto;
+}
+
+.disrupt {
+    display: inline;
+    font-size: xx-large;
+    color: red;
+    text-transform: uppercase;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
