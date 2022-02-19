@@ -1,0 +1,10 @@
+.canvas {
+    width: 900px;
+    height: 556px;
+    background-color: teal;
+    margin: 100px auto;
+}
+
+body {
+    background-color: yellow;
+}

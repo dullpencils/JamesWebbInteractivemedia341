@@ -1,0 +1,58 @@
+.canvas {
+    width: 900px;
+    height: 556px;
+    background-color: orange;
+    margin: 100px auto;
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 80px;
+    position: absolute;
+    z-index: 0;
+}
+
+.top {
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 100px/100px;
+    padding: 0;
+    z-index: 0;
+    position: relative;
+}
+
+.bottom {
+    width: 300px;
+    height: 350px;
+    background: whitesmoke;
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+.handle {
+    width: 250px;
+    height: 250px;
+    margin-top: -350px;
+    margin-left: 175px;
+    background: whitesmoke;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+}
+
+.handletwo {
+    width: 225px;
+    height: 225px;
+    margin-top: -235px;
+    margin-left: 160px;
+    background: orange;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+}

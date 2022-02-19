@@ -1,0 +1,60 @@
+.canvas {
+    width: 900px;
+    height: 556px;
+    background-color: yellow;
+    margin: 50px auto;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 0;
+}
+
+.bottle {
+    height: 300px;
+    width: 150px;
+    margin-top: 75px;
+    margin-left: 100px;
+    padding: 0;
+    background-color: black;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.sticker {
+    height: 200px;
+    width: 75px;
+    background-color: white;
+    margin-left: 140px;
+    margin-top: -250px;
+}
+
+.cap {
+    height: 50px;
+    width: 150px;
+    margin-top: -303px;
+    margin-left: 100px;
+    background-color: black;
+}
+
+.handle {
+    height: 75px;
+    width: 150px;
+    background-color: black;
+    margin-top: -100px;
+    margin-left: 100px ;
+    border-radius: 25%;
+}
+
+.cutout {
+    height: 30px;
+    width: 125px;
+    background-color: yellow;
+    margin-top: -60px;
+    margin-left: 112px ;
+    border-radius: 25%;
+}
