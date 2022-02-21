@@ -1,0 +1,21 @@
+body {
+    display: inline;
+    color: white;
+    margin-left: 200px;
+}
+
+.ah {
+    font-size: xx-large;
+    font-size: 120px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.container {
+    margin: auto;
+    width: 750px;
+    background-color: blue;
+    padding: 100px;
+    text-align: center;
+}
