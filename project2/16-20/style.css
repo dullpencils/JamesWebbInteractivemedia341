@@ -47,11 +47,21 @@ button {
 }
 
 .homebutton {
-    border:none;
-    background-color: whitesmoke;
-    color: whitesmoke;
-    position: relative;
-    margin-left: 570px;
+  border:none;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: whitesmoke;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-left: 50%;
+  position: relative;
+  background: whitesmoke;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline;
+  justify-content: center;
+  float: right;
 }
 
 .button1 {

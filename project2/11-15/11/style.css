@@ -11,7 +11,8 @@ hr.top {
     border-top: 1px dotted gray;
 }
 
-.home {
+.homebutton {
+    border:none;
     font-family: sans-serif;
     font-size: 14px;
     color: whitesmoke;
@@ -19,14 +20,13 @@ hr.top {
     text-align: center;
     margin-left: 50%;
     position: relative;
-    background-color: whitesmoke;
+    background: whitesmoke;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     display: inline;
     justify-content: center;
     float: right;
-    opacity: 100%;
 }
 
 .next {
