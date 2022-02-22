@@ -14,8 +14,11 @@ body {
 
 .container {
     margin: auto;
-    width: 750px;
+    width: 500px;
+    height: 500px;
     background-color: blue;
+    background-image: radial-gradient(rgb(1, 185, 247), blue);
     padding: 100px;
     text-align: center;
+    border-radius: 50%;
 }
