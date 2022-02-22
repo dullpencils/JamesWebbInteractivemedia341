@@ -4,29 +4,46 @@
 .lungs,
 .engine,
 .boat,
-.soul,
-.joy {
-    display: inline;
-    font-size: large;
+.soul {
+    display: inline-block;
+    font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: lowercase;
     color: lightblue;
     font-kerning: auto;
 }
 
-marquee {
+.joy {
+    display: inline-block;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    color: black;
+    font-kerning: auto;
+}
+
+
+.action {
     text-transform: uppercase;
     color: red;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 700;
-    font-size: xx-large;
+    display: inline-block;
     text-align: center;
-    scroll
+    margin:auto;
+    font-size: 200px;
+
 }
 
-body {
+.ah {
+    color: red;
+    width: 50%;
+}
+
+
+ {
     width: 650px;
-    left:300px;
+    left:350px;
     position:sticky;
     text-align: justify;
     line-height: 2;
