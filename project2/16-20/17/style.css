@@ -54,7 +54,8 @@ a {
     line-height: 2;
 }
 
-.home {
+.homebutton {
+    border: none;
     font-family: sans-serif;
     font-size: 14px;
     color: whitesmoke;
