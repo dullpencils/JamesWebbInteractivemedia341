@@ -4,8 +4,7 @@ a {
 }
 
 .container {
-  align-items: center;
-  width: 100%;
+  margin: auto;
 }
 
 button {
