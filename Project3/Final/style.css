@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("../../Project3/Testing/P3/images/beach.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  background-color: none;
+
+}
+
+.sky {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: none;
+  }
+  
+  .forest {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: none;
+  }
+  
+  .ocean {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: none;
+  }
+  
+  .beach {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: none;
+  }
+
+

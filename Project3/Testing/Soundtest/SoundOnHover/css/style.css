@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.ocean {
+	width: 50%;
+	height: 50%;
+	float: left;
+	background-color: aqua;
+}
+
+.sky {
+	width: 50%;
+	height: 50%;
+	float: left;
+	background-color: lightblue;
+}
+
+.forest {
+	width: 50%;
+	height: 50%;
+	float: left;
+	background-color: green;
+}
+
+.beach {
+	width: 50%;
+	height: 50%;
+	float: left;
+	background-color: blue;
+}
+
+

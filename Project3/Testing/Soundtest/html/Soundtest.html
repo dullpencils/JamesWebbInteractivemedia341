@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<div class="sky">
+<audio id="sky" preload="auto">
+    <source src="../../audio/gulls.mp3">
+</audio>
+</div>
+
+
+<div class="forest"></div>
+<audio id="forest" preload="auto">
+    <source src="../../audio/forest.wav">
+</audio>
+
+<div class="ocean"></div>
+<audio id="ocean" preload="auto">
+    <source src="../../audio/Ocean.wav">
+</audio>
+
+<div class="beach"></div>
+<audio id="beach" preload="auto">
+    <source src="../../audio/beach.mp3">
+</audio>
+
+
+<script>
+    var sky = $("#sky")[0];
+    $(".sky")
+.mouseenter(function() {
+    sky.play();
+});
+</script>
+
+<script type="text/javascript" src="./P3/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../js/jqer.js"></script>
+</body>
+</html>

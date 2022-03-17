@@ -1,0 +1,74 @@
+html{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sky {
+    width: 50%;
+    height: 50%;
+    float: left;
+	background-color: inherit;
+  }
+  
+  .forest {
+    width: 50%;
+    height: 50%;
+    float: left;
+	background-color: inherit;
+  }
+  
+  .ocean {
+    width: 50%;
+    height: 50%;
+    float: left;
+	background-color: inherit;
+  }
+  
+  .beach {
+    width: 50%;
+    height: 50%;
+    float: left;
+	background-color: inherit;
+  }
+
+.mouse_area_wrap{
+	background:#000;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.mouse_hover_area{
+	width: 100%;
+	height: 100vh;
+	background:url('../images/beach.png') left top no-repeat;
+	background-attachment: fixed;
+	background-size: 1366px 800px;
+	opacity: 1;
+	filter: blur(10px)	
+}
+
+.mouse{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: url('../images/beach.png') left top no-repeat;
+	background-attachment: fixed;
+	background-size: 1366px 800px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	pointer-events: none;
+	border:none;
+}
+
+

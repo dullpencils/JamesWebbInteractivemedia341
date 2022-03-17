@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='UTF-8'>
+	
+	<title>Play Sound on hover</title>
+	
+	<link rel='stylesheet' href='css/style.css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	
+
+</head>
+
+<body>
+			<div class="sky">
+				<audio id="sky" preload="auto">
+				 <source src="../../audio/gulls.mp3"></source>
+			 </audio>
+			</div>
+
+			 
+			 <div class="ocean">
+				<audio id="ocean" preload="auto">
+				 <source src="../../audio/Ocean.wav"></source>
+			 </audio>
+			</div>
+
+			 <div class="forest">
+				<audio id="forest" preload="auto">
+				 <source src="../../P3/audio/forest.wav"></source>
+			 </audio>
+			 </div>
+
+			 <div class="beach">
+				<audio id="beach" preload="auto">
+				 <source src="../../audio/beach.mp3"></source>
+			 </audio>
+			 </div>
+
+
+			
+	<script>
+		
+
+
+	var forest = $("#forest")[0];
+		$("#forest")
+	.mouseenter(function() {
+		forest.play();
+	});
+	
+	</script>
+				
+</body>
+
+</html>

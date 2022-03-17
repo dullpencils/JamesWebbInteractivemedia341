@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<link rel="stylesheet" type="text/css" href="../Restest/stlye.css">
+<title>Beach Day</title>
+</head>
+<body>
+<div class="sky">
+	<audio id="gulls" preload="auto">
+		<source src="./audio/gulls.mp3"></source>
+ </audio>
+</div>
+
+<div class="ocean">
+	<audio id="waves" preload="auto">
+		<source src="../Fina Draft/audio/waves.wav"></source>
+	</audio>
+</div>
+
+<div class="forest">
+	<audio id="forest" preload="auto">
+		<source src="../Fina Draft/audio/forest.wav"></source>
+    </audio>
+</div>
+
+<div class="beach">
+	<audio id="sand" preload="auto">
+		<source src="../Fina Draft/audio/sand.mp3"></source>
+	</audio>
+</div>
+
+<div class="nav">
+    <audio id="beep" preload="auto">
+     <source src="audio/beep.mp3"></source>
+ </audio>
+</div>
+
+<script>
+
+var waves = $("#waves")[0];
+$(".ocean")
+.mouseenter(function() {
+waves.play();
+});
+
+</script>
+</body>
+</html>

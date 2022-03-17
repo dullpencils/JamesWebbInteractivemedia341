@@ -1,0 +1,21 @@
+
+
+.nav {
+	display: block;
+	text-align: center;
+	width: 50%;
+	height: 50%;
+	float: left;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+	background: #ff5200;
+	font-family: arial black;
+}
+
+.nav a:hover {
+	background: #222;
+}
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<link rel="stylesheet" type="text/css" href="../Fina Draft/css/style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="../Fina Draft/js/main.js"></script>
+<title>Beach Day</title>
+</head>
+
+<body>
+
+
+
+<div class="sky">
+	<audio id="gulls" preload="auto">
+		<source src="./audio/gulls.mp3"></source>
+ </audio>
+</div>
+
+<div class="forest">
+	<audio id="birds" preload="auto">
+		<source src="../Fina Draft/audio/birds.wav"></source>
+    </audio>
+</div>
+
+<div class="ocean">
+	<audio id="waves" preload="auto">
+		<source src="./audio/waves.wav"></source>
+	</audio>
+</div>
+
+<div class="beach">
+	<audio id="sand" preload="auto">
+		<source src="../Fina Draft/audio/sand.mp3"></source>
+	</audio>
+</div>
+
+
+
+<script>
+	var gulls = $("#gulls")[0];
+	$(".sky")
+.mouseenter(function() {
+	gulls.play();
+});
+
+var waves = $("#waves")[0];
+	$(".ocean")
+.mouseenter(function() {
+	waves.play();
+});
+
+var birds = $("#birds")[0];
+	$(".forest")
+.mouseenter(function() {
+	birds.play();
+});
+
+var sand = $("#sand")[0];
+		$(".beach")
+	.mouseenter(function() {
+		sand.play();
+	});
+</script>
+
+
+</body>
+</html>

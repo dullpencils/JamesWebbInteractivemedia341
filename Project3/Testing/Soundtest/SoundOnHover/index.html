@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='UTF-8'>
+	
+	<title>Play Sound on hover</title>
+	
+	<link rel='stylesheet' href='../style.css'>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+
+<body>
+  
+		
+<div class="nav">
+		   	<audio id="beep" preload="auto">
+				<source src="audio/beep.mp3"></source>
+			</audio>
+		</div>
+		
+		<script>
+		
+		var beepOne = $("#beep")[0];
+		$(".nav")
+	.mouseenter(function() {
+		beepOne.play();
+	});
+	
+	</script>
+				
+</body>
+
+</html>
